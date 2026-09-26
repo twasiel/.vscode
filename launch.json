@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debus current file (gdb)",
+            "type": "gdb",
+            "request": "launch",
+            "target": "${fileDirname}/${fileBasenameNoExtension}",
+            "cwd": "${fileDirname}",
+            "terminal": "konsole",
+            "valuesFormatting": "prettyPrinters",
+            "preLaunchTask": "build"
+        }
+    ]
+}
